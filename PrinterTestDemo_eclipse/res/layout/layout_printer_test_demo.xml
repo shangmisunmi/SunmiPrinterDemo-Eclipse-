@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/content_view"
+    tools:context="com.test.printertestdemo.PrinterTestDemoAct" >
+
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    
+  <Button
+        android:id="@+id/b_self"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印机自检" />
+
+  <Button
+        android:id="@+id/b_init"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印初始化" />
+ 
+  <Button
+        android:id="@+id/b_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印文字" />
+  
+  <Button
+        android:id="@+id/b_baidu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印百度小票" />
+  
+  <Button
+        android:id="@+id/b_meituan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印美团小票" /> 
+
+  <Button
+        android:id="@+id/b_erlmo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印饿了么小票" />   
+  <Button
+        android:id="@+id/b_koubei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印口碑外卖小票" />   
+  <Button
+        android:id="@+id/b_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印表格" />  
+        
+  <Button
+        android:id="@+id/b_barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印条码" /> 
+         
+  <Button
+        android:id="@+id/b_qcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印二维码" />
+  
+  <Button
+        android:id="@+id/b_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印图片" />  
+        
+  <Button
+        android:id="@+id/b_lines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="走纸3行" />
+
+  <Button
+        android:id="@+id/b_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="综合测试" />
+
+  <Button
+        android:id="@+id/b_testall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="并发多线程混乱打印测试" />  
+  
+  <Button
+        android:id="@+id/b_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询长度" />
+  
+  <Button
+        android:id="@+id/b_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出" /> 
+        
+  <Button
+        android:id="@+id/b_bytes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="16进制特别指令" /> 
+        
+  <Button
+        android:id="@+id/b_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印大黑块" />   
+        
+  <Button
+        android:id="@+id/b_length"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="黑点随机打印" /> 
+        
+  <TextView 
+      	android:id="@+id/info"
+      	android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      />
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
